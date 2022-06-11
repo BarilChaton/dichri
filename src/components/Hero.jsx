@@ -6,7 +6,7 @@ import heroImg3 from '../assets/pictures/hero/hero-main-3.jpg'
 
 const Hero = () => {
   return (
-    <div name='hero' className='w-full h-screen bg-[#ff9cce]'>
+    <div name='hero' className='w-full h-screen bg-[#f3c2db]'>
       
       {/* Text Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white'>
@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
 
       {/* Picture Container */}
-      <div className='flex flex-col-3 justify-center -mt-[300px] bg-[#ff9cce]'>
+      <div className='flex flex-col-3 justify-center -mt-[300px] bg-[#f3c2db]'>
         <img src={heroImg2} alt="Makrame image example 1" className='w-[450px] h-auto rounded-l-xl' /*style={{width: '450px'}}*/ />
         <img src={heroImg1} alt="Makrame image example 2" className='w-[450px] h-auto' /*style={{width: '450px'}}*/ />
         <img src={heroImg3} alt="Makrame image example 3" className='w-[450px] h-auto rounded-r-xl' /*style={{width: '450px'}}*/ />
