@@ -1,5 +1,4 @@
 import React from 'react'
-import { FcShop } from "react-icons/fc";
 import blocket from '../assets/Logo/blocket-logo.png'
 import heroImg1 from '../assets/pictures/hero/hero-main-1.jpg'
 import heroImg2 from '../assets/pictures/hero/hero-main-2.jpg'
