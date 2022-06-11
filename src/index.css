@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@layer base{
+    body{
+        @apply font-[Courgette];
+    }
+    li{
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
