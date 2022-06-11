@@ -8,7 +8,7 @@
     body{
         @apply font-[Courgette];
     }
-    li{
+    a{
         @apply px-4;
         @apply cursor-pointer;
     }
