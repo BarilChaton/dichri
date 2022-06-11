@@ -28,7 +28,7 @@ const Navbar = () => {
                     <GiFlowerTwirl />
                 </div>
                 <li className='text-2xl text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
-                <Link to="hero" smooth={true} duration={500}>
+                <Link to="news" smooth={true} duration={500}>
                     Nyheter
                 </Link>
                 </li>
@@ -91,7 +91,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className='text-3xl text-white border-2 mb-6 rounded-lg bg-[#2b8894] p-3'>
-                        <Link to="hero" smooth={true} duration={500}>
+                        <Link to="news" smooth={true} duration={500}>
                             Nyheter
                         </Link>
                     </li>

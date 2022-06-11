@@ -20,10 +20,10 @@ const Hero = () => {
       </div>
 
       {/* Picture Container */}
-      <div className='w-full h-screen flex flex-col-3 justify-center -mt-[300px] bg-[#ff9cce]'>
-        <img src={heroImg2} alt="Makrame image example 1" className='w-[450px] h-[80%] rounded-l-xl' /*style={{width: '450px'}}*/ />
-        <img src={heroImg1} alt="Makrame image example 2" className='w-[450px] h-[80%]' /*style={{width: '450px'}}*/ />
-        <img src={heroImg3} alt="Makrame image example 3" className='w-[450px] h-[80%] rounded-r-xl' /*style={{width: '450px'}}*/ />
+      <div className='flex flex-col-3 justify-center -mt-[300px] bg-[#ff9cce]'>
+        <img src={heroImg2} alt="Makrame image example 1" className='w-[450px] h-auto rounded-l-xl' /*style={{width: '450px'}}*/ />
+        <img src={heroImg1} alt="Makrame image example 2" className='w-[450px] h-auto' /*style={{width: '450px'}}*/ />
+        <img src={heroImg3} alt="Makrame image example 3" className='w-[450px] h-auto rounded-r-xl' /*style={{width: '450px'}}*/ />
       </div>
     </div>
   )
