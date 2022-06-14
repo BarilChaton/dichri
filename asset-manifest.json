@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/dichri/static/css/main.b6f7d9fa.css",
-    "main.js": "/dichri/static/js/main.e7d18642.js",
+    "main.css": "/dichri/static/css/main.8b259a22.css",
+    "main.js": "/dichri/static/js/main.c70cc953.js",
     "static/media/hero-main-3.jpg": "/dichri/static/media/hero-main-3.8e10805f578639b61fd5.jpg",
     "static/media/hero-main-2.jpg": "/dichri/static/media/hero-main-2.220f96de89596913bcf0.jpg",
     "static/media/hero-main-1.jpg": "/dichri/static/media/hero-main-1.dea5d3bd6dabc65c57e3.jpg",
     "static/media/Logo.png": "/dichri/static/media/Logo.f98d81bac0002996813c.png",
+    "static/media/mak1.jpg": "/dichri/static/media/mak1.a409e5f0ce2f55cf75c6.jpg",
     "static/media/blocket-logo.png": "/dichri/static/media/blocket-logo.f72f8cc36a20317dbf06.png",
     "index.html": "/dichri/index.html",
-    "main.b6f7d9fa.css.map": "/dichri/static/css/main.b6f7d9fa.css.map",
-    "main.e7d18642.js.map": "/dichri/static/js/main.e7d18642.js.map"
+    "main.8b259a22.css.map": "/dichri/static/css/main.8b259a22.css.map",
+    "main.c70cc953.js.map": "/dichri/static/js/main.c70cc953.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6f7d9fa.css",
-    "static/js/main.e7d18642.js"
+    "static/css/main.8b259a22.css",
+    "static/js/main.c70cc953.js"
   ]
 }
