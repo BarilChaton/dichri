@@ -1,15 +1,10 @@
 import React from 'react'
+import newsimg1 from '../assets/pictures/news/mak1.jpg'
 
 const news = () => {
   return (
-    <div name='news' className='w-full h-screen bg-[#f3c2db]'>
-        <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                <div className='sm:text-right pb-8 pl-4 mt-60'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#5ce1e6]'>Nyheter</p>
-                </div>
-            </div>
-        </div>
+    <div name='news' className='w-full h-full bg-[#f3c2db] text-white'>
+      <h1>Test header. Please ignore..</h1>
     </div>
   )
 }

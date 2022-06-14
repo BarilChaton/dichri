@@ -18,8 +18,8 @@ const Navbar = () => {
             </div>
 
             {/* Menu */}
-            <ul className='hidden 2xl:flex justify-between items-center gap-[30px]'>
-                <li className='text-2xl text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
+            <ul className='hidden lg:flex justify-between items-center gap-[30px]'>
+                <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
                 <Link to="hero" smooth={true} duration={500}>
                     Hem
                 </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <div className='text-[#5ce1e6] animate-spin-slow'>
                     <GiFlowerTwirl />
                 </div>
-                <li className='text-2xl text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
+                <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
                 <Link to="news" smooth={true} duration={500}>
                     Nyheter
                 </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
                 <div className='text-[#5ce1e6] animate-spin-slow'>
                     <GiFlowerTwirl />
                 </div>
-                <li className='text-2xl text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
+                <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
                 <Link to="hero" smooth={true} duration={500}>
                     Produkter
                 </Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 <div className='text-[#5ce1e6] animate-spin-slow'>
                     <GiFlowerTwirl />
                 </div>
-                <li className='text-2xl text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
+                <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
                 <Link to="hero" smooth={true} duration={500}>
                     Information
                 </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <div className='text-[#5ce1e6] animate-spin-slow'>
                     <GiFlowerTwirl />
                 </div>
-                <li className='text-2xl text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
+                <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
                 <Link to="hero" smooth={true} duration={500}>
                     Vilka Material?
                 </Link>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <div className='text-[#5ce1e6] animate-spin-slow'>
                     <GiFlowerTwirl />
                 </div>
-                <li className='text-2xl text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
+                <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
                 <Link to="hero" smooth={true} duration={500}>
                     Frågor & Svar
                 </Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
             </ul>
 
             {/* Panel under menu */}
-            <div className='hidden 2xl:flex fixed flex-col-2 right-0 top-[90px] w-[1000px] h-[35px] rounded-bl-full place-items-center justify-center gap-[15%] bg-blue-300 text-white'>
+            <div className='hidden lg:flex fixed flex-col-2 right-0 top-[90px] w-[1000px] h-[35px] rounded-bl-full place-items-center justify-center gap-[15%] bg-blue-300 text-white'>
                 <p>Mysighet galore!</p>
                 <ul className='flex gap-6'>
                     <li className='flex place-items-center'><AiOutlineCheckCircle className='mx-2' />Allt handgjort av mig!</li>
@@ -77,12 +77,12 @@ const Navbar = () => {
             </div>
 
             {/* Hamburger */}
-            <div onClick={handleClick} className='2xl:hidden absolute right-3 scale-150 text-white z-10'>
+            <div onClick={handleClick} className='lg:hidden absolute right-3 scale-150 text-white z-10'>
                 {!nav ? <MdMenu /> : <MdMenuOpen />}
             </div>
 
             {/* Mobile Menu */}
-            <div className='2xl:hidden'>
+            <div className='lg:hidden'>
                 <ul className={!nav ? 'scale-x-0 ease-out duration-150 fixed top-[90px] left-[25px] w-[450px] h-[85%] rounded-lg bg-blue-300 flex flex-col justify-center items-center' :
                                       'scale-x-100 ease-in duration-150 fixed top-[90px] left-[25px] w-[450px] h-[85%] rounded-lg bg-blue-300 flex flex-col justify-center items-center'}>
                     <li className='text-3xl text-white border-2 mb-6 rounded-lg bg-[#2b8894] p-3'>
