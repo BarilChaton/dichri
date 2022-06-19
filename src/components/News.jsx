@@ -4,11 +4,15 @@ const news = () => {
   return (
     <div name='news' className='w-full h-screen bg-[#f3c2db]'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                <div className='sm:text-right pb-8 pl-4 mt-60'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#5ce1e6]'>Nyheter</p>
-                </div>
-            </div>
+          <div className='sm:pb-8 pl-4 mt-80 '>
+            <h1 className='text-6xl text-white align-middle'>Nyheter!</h1>
+          </div>
+          <div className='max-w-[1000px] w-full grid grid-cols-2 row-span-2 gap-8'>
+            <div className='bg-[#2b8894] p-6 rounded-xl'>
+              <h2 className='text-4xl text-white'>Nyheter Huvud</h2>
+              <p className='text-white whitespace-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>      
+          </div>
         </div>
     </div>
   )
