@@ -6,7 +6,7 @@ import heroImg3 from '../assets/pictures/hero/hero-main-3.jpg'
 
 const Hero = () => {
   return (
-    <div name='hero' className='w-screen h-screen pt-[200px] md:pt-[180px] md:pb-[70%] bg-[#f3c2db]'>
+    <div name='hero' className='w-screen h-screen pt-[200px] md:pt-[180px] bg-[#f3c2db]'>
       
       {/* Text Container */}
       <div className='flex flex-col'>
@@ -20,7 +20,7 @@ const Hero = () => {
           <p className='place-items-center mt-4 text-2xl font-bold'>Så tveka inte! Det är bara att sätta igån och shoppa!</p>
         </div>
         {/* Picture Container */}
-        <div className='flex max-h-[250px] ml-[3.5%] md:flex sm:max-h-[500px] sm:justify-center'>
+        <div className='hidden md:min-h-[10%] md:flex max-h-[500px] justify-center'>
           <div className='inline-flex mt-12 w-[50%] bg-[#f3c2db]'>
             <img src={heroImg2} alt="Makrame image example 1" className='rounded-l-xl' />
             <img src={heroImg1} alt="Makrame image example 2" />

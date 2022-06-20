@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import {Link} from 'react-scroll'
 import Logo from '../assets/Logo/Logo.png'
 import {GiFlowerTwirl, GiHamburgerMenu} from "react-icons/gi";
 import { MdMenu, MdMenuOpen } from "react-icons/md";
@@ -12,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div>
-        <div className='fixed w-full h-[90px] flex justify-between items-center px-4 border-y-4 border-[#5ce1e6] bg-[#2b8894]'>
+        <div className='fixed w-full h-[90px] flex justify-between items-center px-4 border-y-4 border-[#5ce1e6] bg-[#2b8894] z-[100]'>
             <div>
                 <a href="/"><img src={Logo} alt="Logo image" style={{width: '175px'}} className='absolute -mt-[45px] -ml-[22px] hover:scale-110 duration-300 z-10' /></a>
             </div>
@@ -20,49 +19,37 @@ const Navbar = () => {
             {/* Menu */}
             <ul className='hidden xl:flex justify-between items-center gap-[30px]'>
                 <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
-                <Link to="hero" smooth={true} duration={500}>
-                    Hem
-                </Link>
+                    <a href="/">Hem</a>
                 </li>
                 <div className='text-[#5ce1e6] animate-spin-slow'>
                     <GiFlowerTwirl />
                 </div>
                 <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
-                <Link to="news" smooth={true} duration={500}>
-                    Nyheter
-                </Link>
+                    <a href="/News">Nyheter</a>
                 </li>
                 <div className='text-[#5ce1e6] animate-spin-slow'>
                     <GiFlowerTwirl />
                 </div>
                 <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
-                <Link to="hero" smooth={true} duration={500}>
-                    Produkter
-                </Link>
+                    <a href="/">Produkter</a>
                 </li>
                 <div className='text-[#5ce1e6] animate-spin-slow'>
                     <GiFlowerTwirl />
                 </div>
                 <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
-                <Link to="hero" smooth={true} duration={500}>
-                    Information
-                </Link>
+                    <a href="/">Information</a>
                 </li>
                 <div className='text-[#5ce1e6] animate-spin-slow'>
                     <GiFlowerTwirl />
                 </div>
                 <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
-                <Link to="hero" smooth={true} duration={500}>
-                    Vilka Material?
-                </Link>
+                    <a href="/">Vilka Material?</a>
                 </li>
                 <div className='text-[#5ce1e6] animate-spin-slow'>
                     <GiFlowerTwirl />
                 </div>
                 <li className='text-lg text-[#5ce1e6] hover:border-y-2 p-1 hover:text-white duration-100'>
-                <Link to="hero" smooth={true} duration={500}>
-                    Frågor & Svar
-                </Link>
+                    <a href="/">Frågor & Svar</a>
                 </li>
             </ul>
 
@@ -83,37 +70,25 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div className='lg:hidden'>
-                <ul className={!nav ? 'scale-x-0 ease-out duration-150 fixed top-[90px] left-0 w-[450px] h-screen rounded-lg bg-blue-300 flex flex-col place-content-center items-center' :
-                                      'scale-x-100 ease-in duration-150 fixed top-[90px] left-0 w-[450px] h-screen rounded-lg bg-blue-300 flex flex-col place-content-center items-center'}>
+                <ul className={!nav ? 'scale-x-0 ease-out duration-150 fixed top-[90px] left-0 w-screen h-screen rounded-lg bg-blue-300 flex flex-col place-content-center items-center' :
+                                      'scale-x-100 ease-in duration-150 fixed top-[90px] left-0 w-screen h-screen rounded-lg bg-blue-300 flex flex-col place-content-center items-center'}>
                     <li className='text-3xl text-white border-2 mb-6 rounded-lg bg-[#2b8894] p-3'>
-                        <Link onClick={handleClick} to="hero" smooth={true} duration={500}>
-                            Hem
-                        </Link>
+                        <a href="/">Hem</a>
                     </li>
                     <li className='text-3xl text-white border-2 mb-6 rounded-lg bg-[#2b8894] p-3'>
-                        <Link onClick={handleClick} to="news" smooth={true} duration={500}>
-                            Nyheter
-                        </Link>
+                        <a href="/News">Nyheter</a>
                     </li>
                     <li className='text-3xl text-white border-2 mb-6 rounded-lg bg-[#2b8894] p-3'>
-                        <Link to="hero" smooth={true} duration={500}>
-                            Produkter
-                        </Link>
+                        <a href="/">Produkter</a>
                     </li>
                     <li className='text-3xl text-white border-2 mb-6 rounded-lg bg-[#2b8894] p-3'>
-                        <Link onClick={handleClick} to="hero" smooth={true} duration={500}>
-                            Information
-                        </Link>
+                        <a href="/">Information</a>
                     </li>
                     <li className='text-3xl text-white border-2 mb-6 rounded-lg bg-[#2b8894] p-3'>
-                        <Link onClick={handleClick} to="hero" smooth={true} duration={500}>
-                            Vilka Material?
-                        </Link>
+                        <a href="/">Vilka Material?</a>
                     </li>
                     <li className='text-3xl text-white border-2 mb-6 rounded-lg bg-[#2b8894] p-3'>
-                        <Link onClick={handleClick} to="hero" smooth={true} duration={500}>
-                            Frågor & Svar
-                        </Link>
+                        <a href="/">Frågor & Svar</a>
                     </li>
                 </ul>
                 
