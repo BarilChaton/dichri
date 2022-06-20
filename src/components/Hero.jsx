@@ -6,7 +6,7 @@ import heroImg3 from '../assets/pictures/hero/hero-main-3.jpg'
 
 const Hero = () => {
   return (
-    <div name='hero' className='w-screen h-full pt-[200px] pb-[50%] md:pt-[180px] md:pb-[70%] bg-[#f3c2db]'>
+    <div name='hero' className='w-screen h-screen pt-[200px] md:pt-[180px] md:pb-[70%] bg-[#f3c2db]'>
       
       {/* Text Container */}
       <div className='flex flex-col'>
