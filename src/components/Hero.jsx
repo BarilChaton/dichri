@@ -20,8 +20,8 @@ const Hero = () => {
           <p className='place-items-center mt-4 text-2xl font-bold'>Så tveka inte! Det är bara att sätta igån och shoppa!</p>
         </div>
         {/* Picture Container */}
-        <div className='hidden md:min-h-[10%] md:flex max-h-[500px] justify-center'>
-          <div className='inline-flex mt-12 w-[50%] bg-[#f3c2db]'>
+        <div className='hidden lg:min-h-[10%] md:flex max-h-[500px] justify-center'>
+          <div className='hidden lg:inline-flex mt-12 w-[50%] bg-[#f3c2db]'>
             <img src={heroImg2} alt="Makrame image example 1" className='rounded-l-xl' />
             <img src={heroImg1} alt="Makrame image example 2" />
             <img src={heroImg3} alt="Makrame image example 3" className='rounded-r-xl' />

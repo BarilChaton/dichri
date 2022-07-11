@@ -58,7 +58,7 @@ const Navbar = () => {
                 <p>Mysighet galore!</p>
                 <ul className='flex gap-6'>
                     <li className='flex place-items-center'><AiOutlineCheckCircle className='mx-2' />Allt handgjort av mig!</li>
-                    <li className='flex place-items-center'><AiOutlineCheckCircle className='mx-2' />100% återvunnen tråd!</li>
+                    <li className='flex place-items-center'><AiOutlineCheckCircle className='mx-2' />100% återvunnen material!</li>
                     <li className='flex place-items-center'><AiOutlineCheckCircle className='mx-2' />Högsta kvalite!</li>
                 </ul>
             </div>
